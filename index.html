@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Eric Li's portfolio spanning product development, Siemens NX mechanical design, robotics, and machine learning research." />
+  <meta name="theme-color" content="#0b1020" />
+  <title>Eric Li — Engineering, AI & Product Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Eric Li home">
+        <span class="brand-mark">EL</span>
+        <span>Eric Li</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#cad">CAD</a>
+        <a href="#robotics">Robotics</a>
+        <a href="#research">Research</a>
+        <a class="nav-cta" href="mailto:orvanthis@gmail.com">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">ENGINEERING · AI · PRODUCT</p>
+          <h1>I build systems that move from <span>idea</span> to <span>working artifact</span>.</h1>
+          <p class="hero-copy">
+            My work crosses software product development, mechanical CAD, robotics, and machine learning research—
+            with an emphasis on making complex systems understandable, testable, and useful.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore projects</a>
+            <a class="button button-secondary" href="assets/docs/mamba-vs-transformers.pdf" target="_blank" rel="noreferrer">Read research paper</a>
+          </div>
+          <ul class="quick-stats" aria-label="Portfolio highlights">
+            <li><strong>4</strong><span>featured project areas</span></li>
+            <li><strong>8</strong><span>Siemens NX renders</span></li>
+            <li><strong>1</strong><span>ML research paper</span></li>
+          </ul>
+        </div>
+
+        <aside class="hero-panel" aria-label="Current focus">
+          <p class="panel-label">CURRENT FOCUS</p>
+          <div class="focus-line"><span>Product</span><strong>Orvanthis</strong></div>
+          <div class="focus-line"><span>Mechanical</span><strong>Siemens NX</strong></div>
+          <div class="focus-line"><span>Robotics</span><strong>ASME Rover</strong></div>
+          <div class="focus-line"><span>Research</span><strong>Mamba vs. Transformers</strong></div>
+          <p class="panel-note">A portfolio organized around evidence: live products, design artifacts, system CAD, and experimental results.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="work">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">FEATURED WORK</p>
+            <h2>Projects across software, hardware, and research.</h2>
+          </div>
+          <p>Each project highlights a different way I approach open-ended technical problems—from user-facing product design to mechanical systems and controlled ML experiments.</p>
+        </div>
+
+        <article class="featured-card orvanthis-card">
+          <div class="featured-copy">
+            <div class="project-meta">
+              <span class="tag">Live Product</span>
+              <span class="tag">Market Research</span>
+              <span class="tag">Web</span>
+            </div>
+            <h3>Orvanthis</h3>
+            <p class="lead">A continuous market-research and prioritization platform designed to keep evidence, risk, and the next validation question connected.</p>
+            <p>
+              The product turns changing market context into a structured workflow for discovery, evidence review, risk identification, validation, and durable follow-up. Its interface deliberately keeps uncertainty visible rather than collapsing research into a black-box score.
+            </p>
+            <div class="project-points">
+              <div><span>01</span><p><strong>Evidence-first workflow</strong><br />Preserves source context, freshness, contradictions, and validation gaps.</p></div>
+              <div><span>02</span><p><strong>Research continuity</strong><br />Carries a setup from discovery through follow-up without losing the reasoning trail.</p></div>
+              <div><span>03</span><p><strong>Product communication</strong><br />Makes a complex research process legible through hierarchy, interaction, and clear risk framing.</p></div>
+            </div>
+            <a class="button button-primary" href="https://orvanthis.com/" target="_blank" rel="noreferrer">Visit orvanthis.com ↗</a>
+          </div>
+
+          <div class="browser-mock" aria-label="Stylized Orvanthis project preview">
+            <div class="browser-bar"><span></span><span></span><span></span><small>orvanthis.com</small></div>
+            <div class="browser-body">
+              <div class="orv-brand">✦ ORVANTHIS</div>
+              <p class="mock-kicker">CONTINUOUS MARKET RESEARCH</p>
+              <h4>Keep the evidence, risk, and next question together.</h4>
+              <div class="mock-grid">
+                <div><small>DISCOVERY</small><strong>What changed?</strong></div>
+                <div><small>EVIDENCE</small><strong>What supports it?</strong></div>
+                <div><small>RISK</small><strong>What weakens it?</strong></div>
+                <div><small>VALIDATION</small><strong>What to check next?</strong></div>
+              </div>
+              <div class="mock-status"><span></span> Research workflow · source-backed context · uncertainty visible</div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="cad">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">SIEMENS NX</p>
+            <h2>Mechanical design & rendering.</h2>
+          </div>
+          <p>A selection of CAD work spanning sectioned geometry, rotational components, brackets, housings, and larger assemblies. The gallery emphasizes form development, mechanical relationships, and visualization quality.</p>
+        </div>
+
+        <div class="gallery gallery-cad">
+          <figure class="gallery-item gallery-wide">
+            <button class="image-button" data-lightbox="assets/images/cad/sectioned-rotor-close.webp" aria-label="Open enlarged sectioned component render">
+              <img src="assets/images/cad/sectioned-rotor-close.webp" alt="Sectioned gold-toned mechanical component rendered in Siemens NX" loading="lazy" />
+            </button>
+            <figcaption><strong>Sectioned component study</strong><span>Complex internal geometry and cutaway visualization.</span></figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button class="image-button" data-lightbox="assets/images/cad/rotor-render.webp" aria-label="Open enlarged rotor render">
+              <img src="assets/images/cad/rotor-render.webp" alt="Reflective circular rotor or wheel with internal spokes" loading="lazy" />
+            </button>
+            <figcaption><strong>Rotational component</strong><span>Reflective material and spoke geometry study.</span></figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button class="image-button" data-lightbox="assets/images/cad/bracket-render.webp" aria-label="Open enlarged bracket render">
+              <img src="assets/images/cad/bracket-render.webp" alt="Wood-textured mechanical bracket with mounting holes and slot" loading="lazy" />
+            </button>
+            <figcaption><strong>Mounting bracket</strong><span>Slotted adjustment and multi-axis fastening features.</span></figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button class="image-button" data-lightbox="assets/images/cad/housing-render.webp" aria-label="Open enlarged housing render">
+              <img src="assets/images/cad/housing-render.webp" alt="Compact gray mechanical housing with fasteners and circular ports" loading="lazy" />
+            </button>
+            <figcaption><strong>Compact housing</strong><span>Fastener layout, ports, and assembly packaging.</span></figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button class="image-button" data-lightbox="assets/images/cad/vane-component.webp" aria-label="Open enlarged vane component render">
+              <img src="assets/images/cad/vane-component.webp" alt="Radial vaned mechanical component rendered in black and silver" loading="lazy" />
+            </button>
+            <figcaption><strong>Radial vane geometry</strong><span>Repeated curved surfaces around a central hub.</span></figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button class="image-button" data-lightbox="assets/images/cad/gyroscopic-assembly.webp" aria-label="Open enlarged gyroscopic assembly render">
+              <img src="assets/images/cad/gyroscopic-assembly.webp" alt="Gyroscopic-looking mechanical assembly on a round stand" loading="lazy" />
+            </button>
+            <figcaption><strong>Mechanism concept</strong><span>Multi-body assembly with an outer ring and central structure.</span></figcaption>
+          </figure>
+          <figure class="gallery-item gallery-wide">
+            <button class="image-button" data-lightbox="assets/images/cad/mechanical-assembly.webp" aria-label="Open enlarged mechanical assembly render">
+              <img src="assets/images/cad/mechanical-assembly.webp" alt="Detailed machine assembly mounted on a rectangular base" loading="lazy" />
+            </button>
+            <figcaption><strong>Machine assembly</strong><span>Integrated housing, fasteners, drive elements, and support structure.</span></figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button class="image-button" data-lightbox="assets/images/cad/sectioned-rotor.webp" aria-label="Open enlarged sectioned geometry render">
+              <img src="assets/images/cad/sectioned-rotor.webp" alt="Alternate view of a sectioned gold-toned mechanical component" loading="lazy" />
+            </button>
+            <figcaption><strong>Cutaway geometry</strong><span>Alternate view of the internal surface transitions.</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="robotics">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">ASME ROBOTICS</p>
+            <h2>Rover system design.</h2>
+          </div>
+          <p>The rover CAD captures system-level integration: a modular frame, multi-wheel mobility, articulated mechanical linkages, electronics packaging, and an upper mechanism integrated into one platform.</p>
+        </div>
+
+        <div class="robotics-layout">
+          <div class="robot-copy card">
+            <h3>Designing the whole system—not just a part.</h3>
+            <p>These assembly views show how mechanical, electrical, and structural decisions interact. The rover project is a strong example of designing around interfaces: where mechanisms mount, how loads move through the frame, where electronics live, and how subsystems remain serviceable.</p>
+            <ul class="check-list">
+              <li>Modular aluminum-extrusion chassis</li>
+              <li>Multi-wheel articulated suspension / linkage geometry</li>
+              <li>Integrated drive and actuator components</li>
+              <li>Electronics and control hardware packaging</li>
+              <li>Assembly-level CAD and subsystem iteration</li>
+            </ul>
+          </div>
+
+          <div class="rover-grid">
+            <figure class="gallery-item gallery-wide">
+              <button class="image-button" data-lightbox="assets/images/rover/rover-full-assembly.webp" aria-label="Open enlarged rover assembly">
+                <img src="assets/images/rover/rover-full-assembly.webp" alt="Full CAD assembly of an ASME rover with six wheels and modular frame" loading="lazy" />
+              </button>
+              <figcaption><strong>Full rover assembly</strong><span>System view showing chassis, wheels, mechanisms, and packaging.</span></figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <button class="image-button" data-lightbox="assets/images/rover/rover-electronics.webp" aria-label="Open enlarged rover electronics view">
+                <img src="assets/images/rover/rover-electronics.webp" alt="Rover chassis CAD with visible electrical components and a vertical mast" loading="lazy" />
+              </button>
+              <figcaption><strong>Electronics integration</strong><span>Internal component layout within the frame.</span></figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <button class="image-button" data-lightbox="assets/images/rover/rover-suspension.webp" aria-label="Open enlarged suspension linkage view">
+                <img src="assets/images/rover/rover-suspension.webp" alt="CAD view of linked rover suspension arms and circular joints" loading="lazy" />
+              </button>
+              <figcaption><strong>Suspension architecture</strong><span>Linked arms and joint geometry.</span></figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <button class="image-button" data-lightbox="assets/images/rover/rover-linkage-detail.webp" aria-label="Open enlarged linkage mechanism detail">
+                <img src="assets/images/rover/rover-linkage-detail.webp" alt="Close-up CAD screenshot of a rover mechanical linkage and pulleys" loading="lazy" />
+              </button>
+              <figcaption><strong>Mechanism detail</strong><span>Close-up of linkage and rotational elements.</span></figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="research">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">MACHINE LEARNING RESEARCH</p>
+            <h2>Mamba vs. self-attention under data imbalance.</h2>
+          </div>
+          <p>Research focused on how model architecture affects image-classification performance when class distributions become long-tailed—a particularly relevant problem for medical datasets.</p>
+        </div>
+
+        <article class="research-card">
+          <div class="paper-sheet" aria-hidden="true">
+            <span>RESEARCH PAPER</span>
+            <h3>Comparing Performance of Mamba and Self-Attention Models on Imbalanced Image Classification Tasks</h3>
+            <p>Eric Li</p>
+            <div class="paper-lines"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+
+          <div class="research-copy">
+            <div class="project-meta">
+              <span class="tag">Deep Learning</span>
+              <span class="tag">Computer Vision</span>
+              <span class="tag">Mamba / SSM</span>
+              <span class="tag">Vision Transformers</span>
+            </div>
+            <h3>Comparing Performance of Mamba and Self-Attention Models on Imbalanced Image Classification Tasks</h3>
+            <p>
+              The study compares VIM-TINY (Vision Mamba) and DEIT-TINY (Vision Transformer) across balanced and artificially imbalanced CIFAR-10/CIFAR-100 datasets, then extends the comparison to selected MedMNIST2D datasets.
+            </p>
+            <div class="result-grid">
+              <div><strong>6 / 6</strong><span>baseline CIFAR settings where VIM-TINY outperformed DEIT-TINY</span></div>
+              <div><strong>4 / 5</strong><span>MedMNIST datasets where VIM-TINY beat baseline DEIT-TINY</span></div>
+              <div><strong>300</strong><span>training epochs used for the model experiments</span></div>
+            </div>
+            <p class="research-note"><strong>Key takeaway:</strong> the results suggest Mamba is comparatively robust under imbalance, while stronger augmentation is especially important for making the Transformer baseline competitive.</p>
+            <a class="button button-primary" href="assets/docs/mamba-vs-transformers.pdf" target="_blank" rel="noreferrer">Open the paper ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="skills">
+      <div class="container">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow">TECHNICAL RANGE</p>
+            <h2>What this portfolio demonstrates.</h2>
+          </div>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card"><span>01</span><h3>Mechanical CAD</h3><p>Part modeling, assemblies, sectioned geometry, mechanisms, rendering, and system packaging in Siemens NX.</p></div>
+          <div class="skill-card"><span>02</span><h3>Robotics</h3><p>Subsystem integration, chassis and linkage design, electromechanical packaging, and assembly-level iteration.</p></div>
+          <div class="skill-card"><span>03</span><h3>Machine Learning</h3><p>Experimental design, image classification, Mamba / SSM architectures, Vision Transformers, and imbalanced datasets.</p></div>
+          <div class="skill-card"><span>04</span><h3>Product Development</h3><p>Translating complex workflows into a live product with structured information architecture and clear user-facing interaction.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container contact-card">
+        <div>
+          <p class="eyebrow">NEXT</p>
+          <h2>Interested in the work?</h2>
+          <p>This site is GitHub Pages-ready. Add your GitHub, LinkedIn, resume, or preferred email before publishing, then deploy directly from the repository.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="https://orvanthis.com/" target="_blank" rel="noreferrer">View Orvanthis</a>
+          <a class="button button-secondary" href="mailto:orvanthis@gmail.com">Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Eric Li. Built as a lightweight GitHub Pages portfolio.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Image preview">
+    <button class="lightbox-close" aria-label="Close image preview">×</button>
+    <img id="lightbox-image" alt="Enlarged project image" />
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
